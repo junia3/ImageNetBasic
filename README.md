@@ -4,8 +4,8 @@ Deep learning의 Computer Vision에서 Image classification의 기초가 되는 
 이미지넷에서 가장 먼저 딥러닝의 가능성을 보여준 AlexNet을 시작으로
 보다 깊은 네트워크로 성능을 높인 VGGNet(3*3 convolution layer를 여러 층 사용),
 그리고 이보다 더 깊은 네트워크를 위해서 Residual network를 구현한 ResNet를 모두 pytorch로 구현해보았습니다.
-
 Dataset으로는 10개의 클래스를 가지는 STL10을 사용해보았는데, 이후 CIFAR10이나 MNIST등 다양한 데이터셋도 추가해볼 생각입니다.
+
 ---
 # AlexNet
 ```python3
