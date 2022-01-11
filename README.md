@@ -6,6 +6,16 @@ Deep learning의 Computer Vision에서 Image classification의 기초가 되는 
 그리고 이보다 더 깊은 네트워크를 위해서 Residual network를 구현한 ResNet를 모두 pytorch로 구현해보았습니다.
 Dataset으로는 10개의 클래스를 가지는 STL10을 사용해보았는데, 이후 CIFAR10이나 MNIST등 다양한 데이터셋도 추가해볼 생각입니다.
 
+
+---
+# 실행법
+
+먼저, 필요한 라이브러리 설치 (pytorch, torchvision, torchsummary 등등 다양한 라이브러리가 필요합니다.)
+본인 컴퓨터의 cuda 버전에 맞춰 잘 설치해주세요.
+
+Main이 되는 python파일은 run.py입니다.
+그리고 available한 모델을 직접 입력하게 되면 알아서 dataset을 설정하고, training을 진행합니다.
+
 ---
 # AlexNet
 ```python3
